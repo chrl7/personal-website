@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Choirul</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4f3762877a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- ========== CONTENT UTAMA MULAI ========== -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="gambar/logo7.png" class="logo" alt="Logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <h1>
+            HI, I'M <span>MUHAMMAD <br />CHOIRUL FAUZI </span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ========== KONTEN UTAMA SELESAI ========== -->
+
+    <!-- ========== KONTEN ABOUT MULAI ========== -->
+    <div id="About">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="gambar/kemeja_dasihitam.jpg" alt="Choirul Fauzi" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="isi-aboutme">
+              Halo! Saya Muhammad Choirul Fauzi, seorang pemula berusia 19 tahun
+              yang sedang menjelajahi dunia pengembangan web dan desain. Selama
+              satu tahun terakhir, saya telah mempelajari dasar-dasar
+              pengembangan web seperti HTML, CSS, dan JavaScript. Selain itu,
+              saya juga mampu mengimplementasikan dasar-dasar pemrograman
+              menggunakan Python. Di sisi lain, saya memiliki ketertarikan pada
+              desain antarmuka yang intuitif dan menarik, yang saya pelajari
+              melalui Figma. Saya terus berusaha mengembangkan keterampilan
+              saya, baik dalam pemrograman maupun desain, dengan semangat
+              belajar yang tinggi.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Desain App InterFaces</li>
+                <li>
+                  <span>Basic Frontend Development</span><br />basic web
+                  development
+                </li>
+                <li>
+                  <span>Basic Pemrograman Pyhton</span><br />basic implentasi
+                  pemrograman pyhton
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2023</span><br />membuat foarm login bebasis web</li>
+                <li>
+                  <span>2024</span><br />mendesain aplikasi berbasis android
+                  menggunakan figma
+                </li>
+                <li>
+                  <span>2024</span><br />membuat sistem penjualan tiket bioskop
+                  secara online menggunakan pyhton
+                </li>
+                <li><span>2025</span><br />Membuat Web Portofolio</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022 - 2024</span><br />Penjuruan Mata Pelajaran
+                  Informatika di SMA
+                </li>
+                <li>
+                  <span>2024 - SELESAI</span><br />Mahasiswa Prodi Informatika
+                  di Universitas Teknologi Yogyakarta
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== KONTEN ABOUT SELESAI ========== -->
+
+    <!-- ========== KONTEN SERVICES MULAI ========== -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Desain</h2>
+            <p>
+              Saya menawarkan layanan desain antarmuka pengguna (UI) yang
+              kreatif dan intuitif untuk aplikasi berbasis web maupun mobile.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Sebagai pengembang web pemula, saya mampu membangun website dasar
+              yang fungsional dan responsif menggunakan HTML, CSS, dan
+              JavaScript.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>Python Programming</h2>
+            <p>
+              Saya dapat membantu dalam pengembangan program berbasis Python,
+              baik untuk aplikasi sederhana, otomasi tugas, maupun eksplorasi
+              data.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== KONTEN SERVICES SELESAI ========== -->
+
+    <!-- ========== KONTEN PORTOFOLIO CONTACT ========== -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="content-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i
+              >muhammadchoirulfauzi@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>082244891236</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/chrl.fz/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="content-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Massage"
+                rows="6"
+                placeholder="Your Massage"
+              ></textarea>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          copyright <i class="fa-regular fa-copyright"></i>Muhammad Choirul
+          Fauzi
+        </p>
+      </div>
+    </div>
+    <!-- ========== KONTEN PORTOFOLIO CONTACT ========== -->
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (var tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        document
+          .querySelector(`.tab-links[onclick="opentab('${tabname}')"]`)
+          .classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
